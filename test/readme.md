@@ -22,5 +22,5 @@ subscription_id = "xxx"
 ```
 and run
 ```
-   terraform plan -var-file="secret.tfvars"
+terraform plan -var-file="secret.tfvars"
 ```
