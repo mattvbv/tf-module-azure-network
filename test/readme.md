@@ -2,7 +2,7 @@
 
 ## Init the backend
 
-Create a backend-secret.tfvars containing the following content :
+Create a backend-secret.tfvars file containing the following content :
 ```
 storage_account_name = "mystorage"
 container_name       = "mystorage-terraform-states"
@@ -16,7 +16,7 @@ terraform init -backend-config="backend-secret.tfvars"
 
 ## Run
 
-Create a secret.tfvars containing the following content : 
+Create a secret.tfvars file containing the following content : 
 ```
 subscription_id = "xxx"
 ```
